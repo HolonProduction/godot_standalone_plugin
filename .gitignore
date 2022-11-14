@@ -1,0 +1,14 @@
+# Godot 4+ specific ignores
+.godot/
+
+*.translation
+export_presets.cfg
+
+# Project specific ignores
+export/
+generated/
+
+addons/*
+!addons/standalone_tools/
+
+override.cfg
