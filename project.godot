@@ -33,10 +33,6 @@ config/icon="res://icon.svg"
 
 window/subwindows/embed_subwindows=false
 
-[editor]
-
-export/zip_path="C:/Program Files/7-Zip/7z.exe"
-
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/standalone_tools/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg")
