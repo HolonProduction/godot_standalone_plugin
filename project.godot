@@ -8,16 +8,6 @@
 
 config_version=5
 
-_global_script_classes=[{
-"base": "RefCounted",
-"class": &"Env",
-"language": &"GDScript",
-"path": "res://env.gd"
-}]
-_global_script_class_icons={
-"Env": ""
-}
-
 [application]
 
 config/name="Standalone Plugin"
@@ -35,9 +25,9 @@ window/subwindows/embed_subwindows=false
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/standalone_tools/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg")
-standalone/installed=PackedStringArray("res://addons/kanban_tasks/plugin.cfg")
+standalone/installed=PackedStringArray()
 standalone/enabled=[]
+enabled=PackedStringArray("res://addons/standalone_tools/plugin.cfg")
 
 [network]
 
